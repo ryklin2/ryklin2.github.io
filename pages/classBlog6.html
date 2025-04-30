@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HCI Blog Post 6 - Daniel O (@ryklin22)</title>
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="shortcut icon" type="image/png" href="/favicon.png">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="wrapper">
+      <a class="site-title" rel="author" href="/">Daniel O (@ryklin22)</a>
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484
+                C0,0.665,0.665,0,1.484,0h15.032C17.335,0,18,0.665,18,1.484zM18,7.516C18,8.335,17.335,9,16.516,9H1.484
+                C0.665,9,0,8.335,0,7.516c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516zM18,13.516
+                C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516c0-0.82,0.665-1.483,1.484-1.483h15.032
+                C17.335,12.031,18,12.695,18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+        <div class="trigger">
+          <a class="page-link" href="/photography/">Photography</a>
+          <a class="page-link" href="/blog/">Blog</a>
+          <a class="page-link" href="/fiction/">Fiction</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <article class="post">
+        <h1 class="post-title">From Medium to Hi-Fidelity: Finalizing the UI</h1>
+        <p><em>HCI Blog Series (6/9)</em></p>
+
+        <section>
+          <h2>Evaluating the UI with Heuristic Evaluation</h2>
+          <p>We approached heuristic evaluation with a checklist of Nielsen’s 10 heuristics, but honestly, our design already leaned toward simplicity and clarity from the start. Since we weren’t trying to reinvent anything, most of the heuristics were already covered—visibility of system status, match between system and real world, consistency, etc.</p>
+          <p>The hardest one? Honestly, probably “Flexibility and Efficiency of Use.” Most users just want to look up a school and get on with their day. We weren’t sure how much to offer in terms of advanced features or shortcuts—too many and it’s overwhelming; too few and it’s too basic. We chose speed and clarity.</p>
+          <p>Nothing huge jumped out during evaluation. Most of what we noticed were little polish issues, like unclear link states or text size inconsistencies. One surprise was realizing just how <em>not mobile-friendly</em> the layout was. That was a big miss given how many people use the web on phones globally.</p>
+        </section>
+
+        <section>
+          <h2>Refining Our Design</h2>
+          <p>We made a few changes after evaluation:</p>
+          <ul>
+            <li>Clearer call-to-action buttons on the homepage (bigger, more distinct)</li>
+            <li>Added back button paths and confirmation steps in multi-step flows</li>
+            <li>Reduced clutter on scholarship pages by hiding rarely used filters</li>
+            <li>More consistent spacing and layout rhythm</li>
+          </ul>
+          <p>The core idea stayed the same: a homepage with a search bar, buttons for Compare, Rankings, Scholarships, and from there, clean info pages. The visual updates made things feel tighter and more thought-through, but the user flow didn’t change much—it was already pared down and purposeful.</p>
+
+          <p>Here's a comparison between before and after:</p>
+          <img src="assets/hi_fi_before_after.jpg" alt="Before and after screenshots of the UI design" class="blog-image">
+
+          <p>We also added annotations to highlight specific changes:</p>
+          <img src="assets/heuristic_annotations.jpg" alt="Annotated heuristic feedback applied to the UI" class="blog-image">
+        </section>
+
+        <section>
+          <h2>Lessons from the Process</h2>
+          <p>The biggest lesson was how useful even a simple heuristic evaluation can be. It's one thing to look at your design and say, “I like this.” It's another to ask, “Does this respect user memory? Does this match what people expect to see?”</p>
+          <p>We started thinking more seriously about user workflows—what happens right after someone registers? Where do they go? Our design choices started reflecting that, streamlining the next steps.</p>
+          <p>Also, I’ll never ignore mobile-first design again. If I learned anything this round, it’s that we all build on our laptops and forget the rest of the world is on their phones. Oops.</p>
+        </section>
+
+        <section>
+          <h2>Looking Ahead: A Designer’s Reflection</h2>
+          <p>As someone hoping to build better tools in the future, this process reinforced a simple but powerful idea: <strong>you don’t always need to innovate—you just need to listen, refine, and simplify.</strong></p>
+          <p>We didn’t create something revolutionary. We just took a process that’s currently messy and scattered (school search + financial planning for international students) and made it <em>less painful</em>. That has value.</p>
+          <p>Moving forward, I’ll carry these lessons into my career:</p>
+          <ul>
+            <li>Heuristics aren’t abstract—they’re direct lenses to evaluate UX, most of them should really just be viewed as yes or no questions.</li>
+            <li>“Good enough” design often just means removing pain points.</li>
+            <li>Testing with real users (and their devices) matters more than a perfect mockup.</li>
+          </ul>
+
+          <p>Here’s the polished hi-fi prototype:</p>
+          <img src="assets/hi_fi_final.jpg" alt="Screenshot of the final hi-fidelity prototype" class="blog-image">
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer h-card">
+    <data class="u-url" href="/"></data>
+    <div class="wrapper">
+      <h2 class="footer-heading">Daniel O</h2>
+      <div class="footer-col-wrapper">
+        <div class="footer-col footer-col-1">
+          <ul class="contact-list">
+            <li><a class="u-email" href="mailto:dmoguy@gmail.com">Contact Me</a> | <a href="/assets/DanielO_resume.pdf" target="_blank">Resume</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
